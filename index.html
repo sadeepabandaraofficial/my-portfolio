@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en" data-theme="dark" data-bs-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="Sadeepa Imesh Bandara is a full-stack web developer in Sri Lanka building responsive digital platforms with PHP, Laravel, React and Next.js.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sadeepa Imesh Bandara — Full-Stack Web Developer">
+  <meta property="og:description" content="I build fast, responsive web platforms with clean backend logic, from database to screen.">
+  <meta property="og:image" content="img/og-card.svg">
+  <meta property="og:image:alt" content="Sadeepa Imesh Bandara, full-stack web developer">
+  <title>Sadeepa Imesh Bandara — Full-Stack Web Developer</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%233b82f6'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial,sans-serif' font-size='25' font-weight='700' fill='white'%3ESB%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    (() => {
+      try {
+        const savedTheme = localStorage.getItem("portfolio-theme");
+        const theme = savedTheme || (matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.dataset.bsTheme = theme;
+      } catch (error) {
+        console.warn("Theme preference could not be loaded.", error);
+      }
+    })();
+  </script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header id="top">
+    <nav class="navbar navbar-expand-lg site-nav" aria-label="Main navigation">
+      <div class="container nav-shell">
+        <a class="navbar-brand brand-mark" href="#top" aria-label="Sadeepa Bandara home">Sadeepa Bandara<span>.</span></a>
+        <button class="navbar-toggler nav-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNav" aria-controls="primaryNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="primaryNav">
+          <ul class="navbar-nav mx-auto align-items-lg-center">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+          <div class="nav-actions d-flex align-items-center gap-2">
+            <button class="icon-button theme-toggle" type="button" aria-label="Switch to light theme" title="Switch theme">
+              <i class="bi bi-sun-fill" aria-hidden="true"></i>
+            </button>
+            <a class="button button-primary button-small" href="mailto:sadeepabandara200@gmail.com?subject=CV%20request">
+              Request CV <i class="bi bi-arrow-up-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero-section section-space" aria-labelledby="hero-title">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-7 hero-copy reveal">
+            <p class="eyebrow"><span class="status-dot"></span> Available for opportunities <span class="eyebrow-divider">/</span> Matale, Sri Lanka</p>
+            <h1 id="hero-title">Sadeepa Imesh <span class="name-accent">Bandara</span></h1>
+            <p class="hero-role">Full-Stack Web Developer <span>— PHP, Laravel &amp; Bootstrap</span></p>
+            <p class="hero-intro">I build fast, responsive web platforms with clean backend logic. From database to screen, I can own a feature end to end.</p>
+            <div class="hero-actions d-flex flex-wrap gap-3">
+              <a class="button button-primary" href="#projects">Explore projects <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+              <a class="button button-secondary" href="#contact">Let’s talk <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a>
+            </div>
+            <div class="hero-tech" aria-label="Core technologies">
+              <span>PHP</span><span>Laravel</span><span>React</span><span>Next.js</span><span>MySQL</span>
+            </div>
+          </div>
+          <div class="col-lg-5 hero-art-wrap reveal">
+            <div class="hero-art">
+              <div class="art-orbit orbit-one"></div>
+              <div class="art-orbit orbit-two"></div>
+              <div class="hero-portrait-frame">
+                <img class="hero-portrait" src="img/profile.jpg" width="864" height="1100" alt="Sadeepa Imesh Bandara" fetchpriority="high">
+                <span class="portrait-caption">SADEEPA IMESH BANDARA <i class="bi bi-patch-check-fill" aria-hidden="true"></i></span>
+              </div>
+              <div class="art-badge"><i class="bi bi-braces-asterisk" aria-hidden="true"></i><span>Thoughtful code,<br>useful products.</span></div>
+              <div class="art-spark spark-one" aria-hidden="true">✳</div>
+              <div class="art-spark spark-two" aria-hidden="true">✳</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space section-tight" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-kicker">A little about me</p>
+          <h2 id="about-title">Good work starts with <span>curiosity.</span></h2>
+        </div>
+        <div class="bento-grid">
+          <article class="bento-card about-card reveal">
+            <div class="card-icon"><i class="bi bi-person-workspace" aria-hidden="true"></i></div>
+            <h3>Building with purpose</h3>
+            <p>I’m a results-driven full-stack developer with hands-on experience building, optimizing and maintaining dynamic web platforms using PHP, Laravel, MySQL, JavaScript and Bootstrap. I work comfortably with database integration, performance optimization and Google Analytics. Through technical and extracurricular projects I have learned to lead and collaborate in an agile team, and I keep learning to deliver digital solutions that matter.</p>
+          </article>
+          <article class="bento-card profile-card reveal">
+            <img class="profile-photo" src="img/profile.jpg" width="864" height="1100" alt="Portrait of Sadeepa Imesh Bandara" loading="lazy">
+            <p class="profile-caption">Curious by nature.<br>Developer by craft.</p>
+            <span class="profile-location"><i class="bi bi-geo-alt" aria-hidden="true"></i> Matale, Sri Lanka</span>
+          </article>
+          <article class="bento-card facts-card reveal">
+            <p class="card-label">QUICK FACTS</p>
+            <div class="fact-row"><span>Based in</span><strong>Matale, Sri Lanka</strong></div>
+            <div class="fact-row"><span>Experience</span><strong>Internship → Web Developer</strong></div>
+            <div class="fact-row"><span>Currently</span><strong><span class="status-dot"></span> Open to opportunities</strong></div>
+          </article>
+          <article class="bento-card stack-card reveal">
+            <p class="card-label">MY EVERYDAY TOOLKIT</p>
+            <div class="stack-icons" aria-label="PHP, Laravel, JavaScript, React, Next.js, MySQL and Bootstrap">
+              <span><i class="bi bi-filetype-php" aria-hidden="true"></i>PHP</span>
+              <span><i class="bi bi-layers" aria-hidden="true"></i>Laravel</span>
+              <span><i class="bi bi-filetype-js" aria-hidden="true"></i>JavaScript</span>
+              <span><i class="bi bi-code-slash" aria-hidden="true"></i>React</span>
+              <span><i class="bi bi-triangle" aria-hidden="true"></i>Next.js</span>
+              <span><i class="bi bi-database" aria-hidden="true"></i>MySQL</span>
+              <span><i class="bi bi-bootstrap" aria-hidden="true"></i>Bootstrap</span>
+            </div>
+          </article>
+          <article class="bento-card stat-card reveal">
+            <span class="stat-number">50<span>%</span></span>
+            <p>faster database queries through thoughtful data modelling</p>
+            <i class="bi bi-graph-up-arrow stat-watermark" aria-hidden="true"></i>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading section-heading-row reveal">
+          <div>
+            <p class="section-kicker">Selected work</p>
+            <h2 id="projects-title">Projects with <span>purpose.</span></h2>
+          </div>
+          <p class="section-aside">A few platforms and experiences I’ve helped bring to life.</p>
+        </div>
+        <div class="project-filters reveal" role="group" aria-label="Filter projects">
+          <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All work <span>08</span></button>
+          <button class="filter-button" type="button" data-filter="laravel" aria-pressed="false">Laravel</button>
+          <button class="filter-button" type="button" data-filter="frontend" aria-pressed="false">Frontend</button>
+          <button class="filter-button" type="button" data-filter="business" aria-pressed="false">Business sites</button>
+        </div>
+        <div class="row g-4 project-grid">
+          <div class="col-md-6 col-xl-4 project-item reveal" data-type="laravel business">
+            <article class="project-card">
+              <div class="project-visual visual-amaara" aria-hidden="true"><div class="mock-browser"><div class="mock-nav"><b>AMAARA</b><span>Wellness　 About　 Services</span></div><div class="mock-hero"><small>AYURVEDIC WELLNESS</small><strong>Find your<br>natural balance.</strong><i>Explore treatments　↗</i></div></div><span class="visual-note">MATale · AKURANA · DAMBULLA</span></div>
+              <div class="project-body"><div class="project-meta"><span class="project-type">Laravel · Business site</span><span class="project-index">01 / 08</span></div><h3>Amaara Ayurvedic Wellness</h3><p>Multilingual wellness booking with database-driven services and pricing for Akurana, Matale and Dambulla. Includes CSRF-protected forms, WhatsApp contact, a Maps footer and optimized imagery.</p><div class="tech-list"><span>Laravel</span><span>MySQL</span><span>Bootstrap</span><span>EN / SI / TA</span></div><div class="project-links"><span class="link-unavailable" aria-label="Live site link was not provided">Live link unavailable</span><a href="mailto:sadeepabandara200@gmail.com?subject=Amaara%20project%20details">Ask for details <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></div></div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4 project-item reveal" data-type="laravel business">
+            <article class="project-card">
+              <div class="project-visual visual-tour" aria-hidden="true"><div class="tour-sky"></div><span class="tour-stamp">SRI LANKA<br><b>ISLAND ESCAPES</b></span><div class="tour-search"><small>FIND YOUR NEXT ADVENTURE</small><strong>Make room for wonder.</strong><span>Where to?　　When?　　⌕</span></div><i class="bi bi-compass tour-compass"></i></div>
+              <div class="project-body"><div class="project-meta"><span class="project-type">Next.js + Laravel</span><span class="project-index">02 / 08</span></div><h3>Tour Takers Holidays &amp; Travel</h3><p>Video-led holiday booking with database-driven 3, 4 and 5-star package tiers and WhatsApp enquiries. EN/RU/DE navigation, a 22-destination Leaflet map, gallery, testimonials and blog.</p><div class="tech-list"><span>Next.js</span><span>Laravel</span><span>MySQL</span><span>Bootstrap</span><span>Leaflet</span></div><div class="project-links"><span class="link-unavailable" aria-label="Live site link was not provided">Live link unavailable</span><a href="mailto:sadeepabandara200@gmail.com?subject=Tour%20Takers%20project%20details">Ask for details <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></div></div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4 project-item reveal" data-type="laravel">
+            <article class="project-card">
+              <div class="project-visual visual-legal" aria-hidden="true"><div class="legal-sidebar"><b>LEX / FLOW</b><span>Overview</span><span>Clients</span><span>Cases</span><span>Court diary</span></div><div class="legal-dash"><small>MONDAY, 14 OCTOBER</small><strong>Good morning, Alex.</strong><div class="legal-stats"><span>ACTIVE CASES<b>24</b></span><span>UPCOMING<b>08</b></span><span>CLIENTS<b>126</b></span></div><i class="legal-chart"></i></div></div>
+              <div class="project-body"><div class="project-meta"><span class="project-type">React + Laravel · Admin</span><span class="project-index">03 / 08</span></div><h3>Legal Case Management System</h3><p>Public portal and legal admin console backed by 16 InnoDB tables. AJAX client search and CRUD, case tracking, printable court diaries, billing, Twilio reminders and backup settings.</p><div class="tech-list"><span>React</span><span>Laravel</span><span>MySQL / InnoDB</span><span>Bootstrap</span><span>AJAX</span><span>Twilio</span></div><div class="project-links"><span class="link-unavailable" aria-label="Live site link was not provided">Live link unavailable</span><a href="mailto:sadeepabandara200@gmail.com?subject=Legal%20system%20project%20details">Ask for details <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></div></div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4 project-item reveal" data-type="laravel business">
+            <article class="project-card">
+              <div class="project-visual visual-erp" aria-hidden="true"><div class="erp-top"><span>orbit<span class="erp-dot">.</span>ERP</span><span>Platform　 Solutions　 Pricing</span><b>Get a demo ↗</b></div><div class="erp-content"><small>ONE PLATFORM. ALL IN SYNC.</small><strong>Make business<br>flow better.</strong><div class="erp-modules"><span>◈ Inventory</span><span>◷ Finance</span><span>⌘ People</span></div></div></div>
+              <div class="project-body"><div class="project-meta"><span class="project-type">Laravel · Business site</span><span class="project-index">04 / 08</span></div><h3>Smart ERP Web Portal</h3><p>B2B ERP site with six modules and an architecture graphic. Includes theme and billing-period toggles, a testimonial slider, FAQ accordion and demo request form.</p><div class="tech-list"><span>Laravel</span><span>HTML/CSS</span><span>Bootstrap</span></div><div class="project-links"><span class="link-unavailable" aria-label="Live site link was not provided">Live link unavailable</span><a href="mailto:sadeepabandara200@gmail.com?subject=Smart%20ERP%20project%20details">Ask for details <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></div></div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4 project-item reveal" data-type="frontend business">
+            <article class="project-card">
+              <div class="project-visual visual-dhara" aria-hidden="true"><div class="dhara-top">DHARA<span>ENGINEERING SERVICES</span></div><div class="dhara-building"></div><div class="dhara-copy"><small>BUILDING WHAT’S NEXT</small><strong>Engineering<br>with purpose.</strong><span>Explore our work　↗</span></div></div>
+              <div class="project-body"><div class="project-meta"><span class="project-type">Frontend · Business site</span><span class="project-index">05 / 08</span></div><h3>Dhara Engineering Services</h3><p>Engineering and construction website with an animated header, preloader, frosted service cards and dark project gallery. FAQ accordion and video footer, tested across mobile, tablet and desktop.</p><div class="tech-list"><span>HTML/CSS</span><span>Bootstrap 5</span><span>JavaScript</span></div><div class="project-links"><span class="link-unavailable" aria-label="Live site link was not provided">Live link unavailable</span><a href="mailto:sadeepabandara200@gmail.com?subject=Dhara%20project%20details">Ask for details <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></div></div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4 project-item reveal" data-type="frontend business">
+            <article class="project-card">
+              <div class="project-visual visual-watertec" aria-hidden="true"><div class="watertec-head"><b>WATERTEC</b><span>PRODUCTS　 INNOVATION　 ABOUT</span></div><div class="watertec-copy"><small>ENGINEERED FOR LIFE</small><strong>Water,<br>made better.</strong><span>Discover our products　→</span></div><div class="watertec-product"></div></div>
+              <div class="project-body"><div class="project-meta"><span class="project-type">Frontend · Business site</span><span class="project-index">06 / 08</span></div><h3>WATERTEC (Malaysia) Sdn Bhd</h3><p>Corporate site showcasing taps, showers and industrial fittings alongside certificates and FAQs. An interactive Leaflet map presents export regions, with a cookie banner for visitors.</p><div class="tech-list"><span>HTML/CSS</span><span>Bootstrap 5</span><span>JavaScript</span><span>Leaflet</span></div><div class="project-links"><span class="link-unavailable" aria-label="Live site link was not provided">Live link unavailable</span><a href="mailto:sadeepabandara200@gmail.com?subject=WATERTEC%20project%20details">Ask for details <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></div></div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4 project-item reveal" data-type="laravel business">
+            <article class="project-card">
+              <div class="project-visual visual-ceilao" aria-hidden="true"><div class="ceilao-top"><b>CEILAO</b><span>Shop　 Our story　 Contact</span><i class="bi bi-bag" aria-hidden="true"></i></div><div class="ceilao-copy"><small>GOODNESS FROM SRI LANKA</small><strong>A little taste<br>of home.</strong><span>DISCOVER THE COLLECTION　↗</span></div><div class="ceilao-oranges"></div></div>
+              <div class="project-body"><div class="project-meta"><span class="project-type">Laravel · E-commerce</span><span class="project-index">07 / 08</span></div><h3>Ceilao E-Commerce</h3><p>Maintenance and improvements for a Sri Lankan food exporter’s European store: code optimization, interface modules, best-seller carousel, category grid and newsletter footer.</p><div class="tech-list"><span>Laravel</span><span>Bootstrap</span><span>E-commerce</span></div><div class="project-links"><span class="link-unavailable" aria-label="Live site link was not provided">Live link unavailable</span><a href="mailto:sadeepabandara200@gmail.com?subject=Ceilao%20project%20details">Ask for details <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></div></div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4 project-item reveal" data-type="frontend business">
+            <article class="project-card">
+              <div class="project-visual visual-sahasrara" aria-hidden="true"><div class="sahasrara-overlay"></div><div class="sahasrara-top">SAHASRARA <span>STUDIOS</span></div><div class="sahasrara-copy"><small>FOR THE MOMENTS THAT MATTER</small><strong>Stories, held<br>forever.</strong><span>COMING SOON</span></div><i class="bi bi-chat-heart sahasrara-chat" aria-hidden="true"></i></div>
+              <div class="project-body"><div class="project-meta"><span class="project-type">Frontend · Brand site</span><span class="project-index">08 / 08</span></div><h3>Sahasrara Studios</h3><p>Responsive wedding photography coming-soon page with a softly blurred photo backdrop, click-to-call hotline and floating WhatsApp chat link.</p><div class="tech-list"><span>HTML/CSS</span><span>Bootstrap</span><span>Responsive UI</span></div><div class="project-links"><span class="link-unavailable" aria-label="Live site link was not provided">Live link unavailable</span><a href="mailto:sadeepabandara200@gmail.com?subject=Sahasrara%20project%20details">Ask for details <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a></div></div>
+            </article>
+          </div>
+        </div>
+        <p class="filter-empty" hidden>No projects match this filter.</p>
+      </div>
+    </section>
+
+    <section class="section-space section-alt" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-kicker">The path so far</p>
+          <h2 id="experience-title">Experience that <span>adds up.</span></h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-entry reveal">
+            <span class="timeline-marker" aria-hidden="true"></span>
+            <div class="timeline-date">PERMANENT ROLE</div>
+            <div class="timeline-content">
+              <div class="timeline-heading"><div><h3>Web Developer</h3><p>Flare IT Services (Pvt) Ltd <span>· Matale, Sri Lanka</span></p></div><span class="timeline-tag">Current role</span></div>
+              <p>Designing, developing and maintaining dynamic corporate websites and custom web applications in an agile environment. Moved from internship to a permanent role, contributing to end-to-end system architecture, database management and responsive front-end work with PHP, Laravel, MySQL, JavaScript and Bootstrap 5.</p>
+              <div class="tech-list"><span>PHP</span><span>Laravel</span><span>MySQL</span><span>JavaScript</span><span>Bootstrap 5</span></div>
+            </div>
+          </article>
+          <article class="timeline-entry reveal">
+            <span class="timeline-marker" aria-hidden="true"></span>
+            <div class="timeline-date">6 MONTHS</div>
+            <div class="timeline-content">
+              <div class="timeline-heading"><div><h3>Web Developer Intern</h3><p>Flare IT Services (Pvt) Ltd</p></div><span class="timeline-tag">Starting point</span></div>
+              <p>Full-stack training in an agile team: system architecture design, database management and responsive front-end engineering. Built and maintained multiple corporate websites and custom software.</p>
+              <div class="tech-list"><span>Full-stack</span><span>Agile</span><span>Web applications</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space" aria-labelledby="achievements-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Making it count</p>
+          <h2 id="achievements-title">Impact over <span>output.</span></h2>
+        </div>
+        <div class="row g-3 achievements-grid">
+          <div class="col-md-4 reveal"><article class="achievement-card"><span class="achievement-number">100<small>%</small></span><h3>Mobile-friendly</h3><p>Fluid Bootstrap 5 grids and CSS media queries for layouts that work across screen sizes.</p><i class="bi bi-phone" aria-hidden="true"></i></article></div>
+          <div class="col-md-4 reveal"><article class="achievement-card achievement-featured"><span class="achievement-number">30<small>%</small></span><h3>Productivity gain</h3><p>Led a team project that helped improve productivity by 30%.</p><i class="bi bi-lightning-charge" aria-hidden="true"></i></article></div>
+          <div class="col-md-4 reveal"><article class="achievement-card"><span class="achievement-number">50<small>%</small></span><h3>Faster queries</h3><p>Developed a database model that cut query time by 50%.</p><i class="bi bi-database-check" aria-hidden="true"></i></article></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space section-alt" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Things I bring to the table</p>
+          <h2 id="skills-title">Skills, both <span>kinds.</span></h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-7 reveal">
+            <article class="skill-panel">
+              <p class="card-label">TOOLS &amp; TECHNOLOGIES</p>
+              <div class="skill-chips"><span>PHP</span><span>Laravel</span><span>MySQL</span><span>JavaScript</span><span>React</span><span>Next.js</span><span>HTML</span><span>CSS</span><span>Bootstrap</span><span>Java</span></div>
+            </article>
+          </div>
+          <div class="col-lg-5 reveal">
+            <article class="skill-panel">
+              <p class="card-label">HOW I WORK</p>
+              <div class="skill-chips skill-chips-soft"><span>Teamwork</span><span>Leadership</span><span>Time management</span><span>Problem solving</span><span>Coordination</span><span>Adaptability</span><span>Public speaking</span></div>
+            </article>
+          </div>
+        </div>
+        <div class="language-line reveal"><i class="bi bi-translate" aria-hidden="true"></i><strong>Languages</strong><span>English <small>Advanced</small></span><span>Sinhala</span></div>
+      </div>
+    </section>
+
+    <section class="section-space" id="education" aria-labelledby="education-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Always learning</p>
+          <h2 id="education-title">Education &amp; <span>foundations.</span></h2>
+        </div>
+        <div class="education-list">
+          <article class="education-entry reveal"><span class="education-icon"><i class="bi bi-mortarboard" aria-hidden="true"></i></span><div><h3>Higher National Diploma in Information Technology</h3><p>SLIATE</p></div><span class="education-arrow"><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></article>
+          <article class="education-entry reveal"><span class="education-icon"><i class="bi bi-journal-code" aria-hidden="true"></i></span><div><h3>G.C.E. Advanced Level <span>(2021/2022)</span></h3><p>St. Thomas’ College, Matale <span>· Accounting A · Business Studies A · Economics B · English C</span></p></div><span class="education-arrow"><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></article>
+          <article class="education-entry reveal"><span class="education-icon"><i class="bi bi-book" aria-hidden="true"></i></span><div><h3>G.C.E. Ordinary Level <span>(2017)</span></h3><p>Mt Vijayapala College, Matale <span>· Mathematics A · Sinhala B · Science C · English S</span></p></div><span class="education-arrow"><i class="bi bi-arrow-up-right" aria-hidden="true"></i></span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact-card reveal">
+          <div class="contact-orb" aria-hidden="true"></div>
+          <div class="contact-content">
+            <p class="section-kicker">Have a good one in mind?</p>
+            <h2 id="contact-title">Let’s make it <span>real.</span></h2>
+            <p class="contact-intro">I’m always up for thoughtful projects, good teams and conversations about building useful things.</p>
+            <div class="contact-actions">
+              <a class="button button-primary" href="mailto:sadeepabandara200@gmail.com">Email me <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a>
+              <button class="button button-secondary copy-email" type="button" data-email="sadeepabandara200@gmail.com">
+                <i class="bi bi-copy" aria-hidden="true"></i> <span class="copy-label">Copy email</span>
+              </button>
+            </div>
+            <p class="copy-status" aria-live="polite"></p>
+            <div class="contact-links">
+              <a href="https://www.linkedin.com/in/sadeepa-bandara-/?isSelfProfile=true" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin" aria-hidden="true"></i> LinkedIn <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a>
+              <a href="tel:+94769923507"><i class="bi bi-telephone" aria-hidden="true"></i> +94 76 992 3507</a>
+              <a href="mailto:sadeepabandara200@gmail.com"><i class="bi bi-envelope" aria-hidden="true"></i> sadeepabandara200@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-decoration" aria-hidden="true"><span>LET’S</span><b>BUILD<br>SOMETHING<br>GOOD<span>.</span></b><i class="bi bi-arrow-up-right"></i></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-main">
+        <div class="footer-about">
+          <a class="footer-brand" href="#top">Sadeepa Bandara<span>.</span></a>
+          <p>Building thoughtful digital experiences,<br>one good idea at a time.</p>
+          <div class="footer-socials" aria-label="Social media">
+            <a href="https://www.linkedin.com/in/sadeepa-bandara-/?isSelfProfile=true" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+            <a href="https://wa.me/94769923507" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp"><i class="bi bi-whatsapp" aria-hidden="true"></i></a>
+            <a href="https://web.facebook.com/sadeepa.imesh.bandara/" target="_blank" rel="noopener noreferrer" aria-label="Facebook profile"><i class="bi bi-facebook" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/sapatha.0/" target="_blank" rel="noopener noreferrer" aria-label="Instagram profile"><i class="bi bi-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.tiktok.com/@sapatha0" target="_blank" rel="noopener noreferrer" aria-label="TikTok profile"><i class="bi bi-tiktok" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="footer-contact">
+          <p class="footer-heading">GET IN TOUCH</p>
+          <a href="mailto:sadeepabandara200@gmail.com"><i class="bi bi-envelope" aria-hidden="true"></i> sadeepabandara200@gmail.com</a>
+          <a href="tel:+94769923507"><i class="bi bi-telephone" aria-hidden="true"></i> +94 76 992 3507</a>
+          <a class="whatsapp-button" href="https://wa.me/94769923507" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-whatsapp" aria-hidden="true"></i> Message me on WhatsApp <i class="bi bi-arrow-up-right" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="currentYear">2026</span> Sadeepa Imesh Bandara. All rights reserved.</span>
+        <span class="footer-made"></span>
+        <a class="back-to-top" href="#top">Back to top <i class="bi bi-arrow-up" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <nav class="social-rail" aria-label="Social links">
+    <a href="https://www.linkedin.com/in/sadeepa-bandara-/?isSelfProfile=true" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile" title="LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+    <a href="https://wa.me/94769923507" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp" title="WhatsApp"><i class="bi bi-whatsapp" aria-hidden="true"></i></a>
+    <a href="https://web.facebook.com/sadeepa.imesh.bandara/" target="_blank" rel="noopener noreferrer" aria-label="Facebook profile" title="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i></a>
+    <a href="https://www.instagram.com/sapatha.0/" target="_blank" rel="noopener noreferrer" aria-label="Instagram profile" title="Instagram"><i class="bi bi-instagram" aria-hidden="true"></i></a>
+    <a href="https://www.tiktok.com/@sapatha0" target="_blank" rel="noopener noreferrer" aria-label="TikTok profile" title="TikTok"><i class="bi bi-tiktok" aria-hidden="true"></i></a>
+  </nav>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

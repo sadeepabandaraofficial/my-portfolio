@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#172747"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#22d3ee" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="950" cy="280" r="360" fill="url(#glow)"/>
+  <rect x="88" y="94" width="64" height="64" rx="19" fill="#3b82f6"/>
+  <text x="120" y="137" fill="#fff" font-family="Arial,sans-serif" font-size="27" font-weight="700" text-anchor="middle">SB</text>
+  <text x="88" y="283" fill="#eaf0ff" font-family="Arial,sans-serif" font-size="70" font-weight="700">Sadeepa Imesh</text>
+  <text x="88" y="371" fill="#22d3ee" font-family="Arial,sans-serif" font-size="76" font-weight="700">Bandara</text>
+  <text x="91" y="444" fill="#a1aecb" font-family="Arial,sans-serif" font-size="27">Full-Stack Web Developer</text>
+  <text x="91" y="489" fill="#a1aecb" font-family="Arial,sans-serif" font-size="23">PHP · Laravel · React · Next.js · Bootstrap</text>
+  <rect x="88" y="544" width="65" height="5" rx="2.5" fill="#22d3ee"/>
+</svg>
